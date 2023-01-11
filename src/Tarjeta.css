@@ -1,0 +1,7 @@
+.tarjeta{
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    margin: auto;
+    box-shadow: 5px 5px 5px 5px;
+  }
