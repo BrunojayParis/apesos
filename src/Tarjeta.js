@@ -1,5 +1,5 @@
 import React from 'react';
-import './Tarjeta.css'
+//import './Tarjeta.css'
 
 const Tarjetas =(props)=>{
 

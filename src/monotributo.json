@@ -38,5 +38,11 @@
         "ingresos": 4229985.60,
         "tarifa": 4262.11,
         "prepaga":35117
+    },
+    "RI":{
+        "ingresos": 10000000000,
+        "tarifa": 4262.11,
+        "prepaga":35117
     }
+
 }

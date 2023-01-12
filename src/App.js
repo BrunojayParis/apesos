@@ -8,7 +8,7 @@ function App() {
 
   const[dolar, setDolar] = useState(0);
   //const[isLoading, setIsLoading] = useState(true);
-  const[pesos, setPesos] = useState(0)
+  const[salario, setSalario] = useState(0)
   const[resultado, setResultado] = useState(0)
   useEffect(()=>{
     fetch("https://api.bluelytics.com.ar/v2/latest")
@@ -21,23 +21,23 @@ function App() {
 
   const handleCalcular=(e)=>{
     e.preventDefault()
-    setResultado(pesos / dolar)
+    setResultado(salario * dolar)
   }
 
   return (
     <div className="App">
-      <h1>cobra en dolares</h1>
+      <h1>Cuanto cobro?</h1>
       <Tarjetas dolar = {dolar}/>
       <form className="Form" action="">
-        <label htmlFor="">Salario neto en pesos</label>
+        <label htmlFor="">Salario en dolares</label>
         <input
           type="text" 
-          value={pesos}
-          onChange={(e) => setPesos(e.target.value)}
+          value={salario}
+          onChange={(e) => setSalario(e.target.value)}
         />
         <button onClick={handleCalcular}>Calcular</button>
       </form>
-      <Results dolar = {dolar} toDolar = {resultado} monotributo = {monotributo}/>      
+      <Results dolar = {dolar} toPesos = {resultado} monotributo = {monotributo}/>      
       
     </div>
   );
