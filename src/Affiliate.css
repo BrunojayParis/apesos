@@ -2,11 +2,17 @@
     display: flex;
     flex-direction:row;
     margin: auto;
-
 }
 
 .payment{
     display: block;
     max-width: 30%;
     margin: auto;
+    height: 400px;
+    background-color: antiquewhite;
+}
+
+h1{
+    display:block;
+    align-self: flex-start;
 }
