@@ -3,6 +3,7 @@ import { useState, useEffect } from 'react';
 import Results from './Results';
 import Tarjetas from './Tarjeta';
 import monotributo from './monotributo.json';
+import Affiliate from './Affiliate';
 
 function App() {
 
@@ -38,7 +39,7 @@ function App() {
         <button onClick={handleCalcular}>Calcular</button>
       </form>
       <Results dolar = {dolar} toPesos = {resultado} monotributo = {monotributo}/>      
-      
+      <Affiliate/>
     </div>
   );
 }

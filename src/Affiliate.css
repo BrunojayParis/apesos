@@ -1,0 +1,12 @@
+.affiliate{
+    display: flex;
+    flex-direction:row;
+    margin: auto;
+
+}
+
+.payment{
+    display: block;
+    max-width: 30%;
+    margin: auto;
+}
