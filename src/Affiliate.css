@@ -6,7 +6,7 @@
 
 .payment{
     display: block;
-    max-width: 30%;
+    width: 30%;
     margin: auto;
     height: 400px;
     background-color: antiquewhite;

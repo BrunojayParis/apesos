@@ -1,42 +1,42 @@
 {
     "A": {
-        "ingresos": 748382.07,
-        "tarifa": 3334.24,
-        "prepaga":35117
+        "ingresos": 999657.23,
+        "tarifa": 5253.90,
+        "prepaga":5750.75
     },
     "B": {
-        "ingresos": 1112459.83,
-        "tarifa": 3728.29,
+        "ingresos": 1485976.96,
+        "tarifa": 5473.11,
         "prepaga":35117
     },
     "C": {
-        "ingresos": 1557443.75,
-        "tarifa": 4262.11,
+        "ingresos": 2080367.73,
+        "tarifa": 7351.10,
         "prepaga":35117
     },
     "D": {
-        "ingresos": 1934273.04,
-        "tarifa": 5025.96,
+        "ingresos": 2583720.42,
+        "tarifa":  9245.06,
         "prepaga":35117
     },
     "E": {
-        "ingresos": 2277684.56,
-        "tarifa": 6601.71,
+        "ingresos": 3042435.05,
+        "tarifa": 12776.61,
         "prepaga":35117
     },
     "F": {
-        "ingresos": 2847105.70,
-        "tarifa": 7902.06,
+        "ingresos": 3803043.82,
+        "tarifa": 15712.40,
         "prepaga":35117
     },
     "G": {
-        "ingresos": 3416526.83,
-        "tarifa": 9216.76,
+        "ingresos": 4563652.57,
+        "tarifa": 18347.44,
         "prepaga":35117
     },
     "H": {
-        "ingresos": 4229985.60,
-        "tarifa": 4262.11,
+        "ingresos": 5650236.51,
+        "tarifa":  31347.16,
         "prepaga":35117
     },
     "RI":{

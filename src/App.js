@@ -16,8 +16,8 @@ function App() {
     .then((response) => response.json())  
     .then((dolares) => {
       setDolar(dolares.blue.value_sell)
-
     })
+    
   },[])//ver manejo de errores.
 
   const handleCalcular=(e)=>{
